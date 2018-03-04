@@ -15,7 +15,7 @@
 		F9DE0892204BA63C00FB8E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DE0890204BA63C00FB8E36 /* LaunchScreen.storyboard */; };
 		F9DE089B204BAC1F00FB8E36 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9DE089A204BAC1E00FB8E36 /* Default-568h@2x.png */; };
 		F9DE089F204BACA500FB8E36 /* lectureTrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DE089E204BACA500FB8E36 /* lectureTrade.swift */; };
-		F9DE08A3204BB01200FB8E36 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9DE08A2204BB01200FB8E36 /* GoogleService-Info-2.plist */; };
+		F9DE08A4204BB83000FB8E36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9DE08A2204BB01200FB8E36 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		F9DE0893204BA63C00FB8E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9DE089A204BAC1E00FB8E36 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F9DE089E204BACA500FB8E36 /* lectureTrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lectureTrade.swift; sourceTree = "<group>"; };
-		F9DE08A2204BB01200FB8E36 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		F9DE08A2204BB01200FB8E36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			children = (
 				F9DE088E204BA63C00FB8E36 /* Assets.xcassets */,
 				F9DE0893204BA63C00FB8E36 /* Info.plist */,
-				F9DE08A2204BB01200FB8E36 /* GoogleService-Info-2.plist */,
+				F9DE08A2204BB01200FB8E36 /* GoogleService-Info.plist */,
 			);
 			path = "Support Files";
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9DE08A3204BB01200FB8E36 /* GoogleService-Info-2.plist in Resources */,
+				F9DE08A4204BB83000FB8E36 /* GoogleService-Info.plist in Resources */,
 				F9DE0892204BA63C00FB8E36 /* LaunchScreen.storyboard in Resources */,
 				F9DE089B204BAC1F00FB8E36 /* Default-568h@2x.png in Resources */,
 				F9DE088F204BA63C00FB8E36 /* Assets.xcassets in Resources */,
