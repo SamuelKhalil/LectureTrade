@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8DACBBE0EED63300FB97FEB /* Pods_LectureTrade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C0A48F7867FDB6C8A5D757 /* Pods_LectureTrade.framework */; };
 		F9DE0888204BA63C00FB8E36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DE0887204BA63C00FB8E36 /* AppDelegate.swift */; };
 		F9DE088A204BA63C00FB8E36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DE0889204BA63C00FB8E36 /* ViewController.swift */; };
 		F9DE088D204BA63C00FB8E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DE088B204BA63C00FB8E36 /* Main.storyboard */; };
@@ -14,9 +15,13 @@
 		F9DE0892204BA63C00FB8E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DE0890204BA63C00FB8E36 /* LaunchScreen.storyboard */; };
 		F9DE089B204BAC1F00FB8E36 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9DE089A204BAC1E00FB8E36 /* Default-568h@2x.png */; };
 		F9DE089F204BACA500FB8E36 /* lectureTrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DE089E204BACA500FB8E36 /* lectureTrade.swift */; };
+		F9DE08A3204BB01200FB8E36 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9DE08A2204BB01200FB8E36 /* GoogleService-Info-2.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D73B1898B24AB60A8A04251 /* Pods-LectureTrade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LectureTrade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LectureTrade/Pods-LectureTrade.debug.xcconfig"; sourceTree = "<group>"; };
+		CB25389B4FC72F74BFDF4647 /* Pods-LectureTrade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LectureTrade.release.xcconfig"; path = "Pods/Target Support Files/Pods-LectureTrade/Pods-LectureTrade.release.xcconfig"; sourceTree = "<group>"; };
+		D8C0A48F7867FDB6C8A5D757 /* Pods_LectureTrade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LectureTrade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DE0884204BA63C00FB8E36 /* LectureTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LectureTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DE0887204BA63C00FB8E36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9DE0889204BA63C00FB8E36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		F9DE0893204BA63C00FB8E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9DE089A204BAC1E00FB8E36 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F9DE089E204BACA500FB8E36 /* lectureTrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lectureTrade.swift; sourceTree = "<group>"; };
+		F9DE08A2204BB01200FB8E36 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,18 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8DACBBE0EED63300FB97FEB /* Pods_LectureTrade.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BD3530F7B31A78D815B1414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8C0A48F7867FDB6C8A5D757 /* Pods_LectureTrade.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C937B6528E1B72689B50465 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D73B1898B24AB60A8A04251 /* Pods-LectureTrade.debug.xcconfig */,
+				CB25389B4FC72F74BFDF4647 /* Pods-LectureTrade.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F9DE087B204BA63C00FB8E36 = {
 			isa = PBXGroup;
 			children = (
-				F9DE089A204BAC1E00FB8E36 /* Default-568h@2x.png */,
 				F9DE0886204BA63C00FB8E36 /* LectureTrade */,
 				F9DE0885204BA63C00FB8E36 /* Products */,
+				F9DE089A204BAC1E00FB8E36 /* Default-568h@2x.png */,
+				4C937B6528E1B72689B50465 /* Pods */,
+				4BD3530F7B31A78D815B1414 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +98,7 @@
 			children = (
 				F9DE088E204BA63C00FB8E36 /* Assets.xcassets */,
 				F9DE0893204BA63C00FB8E36 /* Info.plist */,
+				F9DE08A2204BB01200FB8E36 /* GoogleService-Info-2.plist */,
 			);
 			path = "Support Files";
 			sourceTree = "<group>";
@@ -117,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9DE0896204BA63C00FB8E36 /* Build configuration list for PBXNativeTarget "LectureTrade" */;
 			buildPhases = (
+				44AC28DA4932C2E6AE8C079A /* [CP] Check Pods Manifest.lock */,
 				F9DE0880204BA63C00FB8E36 /* Sources */,
 				F9DE0881204BA63C00FB8E36 /* Frameworks */,
 				F9DE0882204BA63C00FB8E36 /* Resources */,
+				0423547E21D0D84D10E42E23 /* [CP] Embed Pods Frameworks */,
+				B334F9E5EA3F4CE2AEE70929 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9DE08A3204BB01200FB8E36 /* GoogleService-Info-2.plist in Resources */,
 				F9DE0892204BA63C00FB8E36 /* LaunchScreen.storyboard in Resources */,
 				F9DE089B204BAC1F00FB8E36 /* Default-568h@2x.png in Resources */,
 				F9DE088F204BA63C00FB8E36 /* Assets.xcassets in Resources */,
@@ -177,6 +208,68 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0423547E21D0D84D10E42E23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LectureTrade/Pods-LectureTrade-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LectureTrade/Pods-LectureTrade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44AC28DA4932C2E6AE8C079A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LectureTrade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B334F9E5EA3F4CE2AEE70929 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LectureTrade/Pods-LectureTrade-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9DE0880204BA63C00FB8E36 /* Sources */ = {
@@ -320,11 +413,13 @@
 		};
 		F9DE0897204BA63C00FB8E36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D73B1898B24AB60A8A04251 /* Pods-LectureTrade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KPDKXJQF3H;
-				INFOPLIST_FILE = LectureTrade/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LectureTrade/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Serpent.LectureTrade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -335,11 +430,13 @@
 		};
 		F9DE0898204BA63C00FB8E36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB25389B4FC72F74BFDF4647 /* Pods-LectureTrade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KPDKXJQF3H;
-				INFOPLIST_FILE = LectureTrade/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LectureTrade/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Serpent.LectureTrade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
